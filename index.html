@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+  <head>
+  <meta charset="UTF-8">
+  <title>Schedule</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sidebar"></div>
+  <div class="wrapper">
+        <div class="search-wrapper">
+            <div class="search">
+                <input class="search-input" placeholder="Поиск">
+            </div>
+        </div>
+  </div>
+  <div class="content-container">
+    <h1 class="content-text">Расписание</h1>
+    <div class="content-box">
+        <div class="content-header">
+            <div class="sort-container">
+                <h1 class="sort-h">Отфильтровать по:</h1>
+                <div class="sort-buttons">
+                    <button class="btn">Лекциям</button>
+                    <button class="btn">Лабораторным</button>
+                    <button class="btn">Заданиям</button>
+                </div>
+            </div>
+            <div class="date">
+                <button class="btn-date"><</button>
+                <button class="btn-calendar"><img src="assets/calendar.svg">Такое-то число такого месяца</button>
+                <button class="btn-date">></button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="day"><h1>Понидельник</h1>
+                <div class="tasks">
+                    <div class="task" id="t1">
+                        <h1 class="taskname">Название</h1>
+                        <h1 class="time">09:00 - 10:30</h1>
+                        <h1 class="address">Этаж, № кабинета</h1>
+                    </div>
+                    <div class="task" id="t2"></div>
+                </div>
+            </div>
+            <div class="day"><h1>Вторник</h1>
+                <div class="tasks">
+                    <div class="task" id="t2"></div>
+                </div>
+            </div>
+            <div class="day"><h1>Среда</h1>
+                <div class="tasks">
+                    <div class="task" id="t3"></div>
+                    <div class="task" id="t4"></div>
+                </div>
+            </div>
+            <div class="day"><h1>Четверг</h1>
+                <div class="tasks">
+                    <div class="task" id="t1"></div>
+                    <div class="task" id="t3"></div>
+                </div>
+            </div>
+            <div class="day"><h1>Пятница</h1>
+                <div class="tasks">
+                    <div class="task" id="t4"></div>
+                </div>
+            </div>
+            <div class="day"><h1 id="weekend">Суббота</h1></div>
+            <div class="day"><h1 id="weekend">Воскресенье</h1></div>
+        </div>
+    </div>
+  </div>
+</body>
